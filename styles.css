@@ -54,6 +54,12 @@
     width: 22rem;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #tituloProductos{
     background-color: grey;
     text-align: center;
@@ -65,12 +71,6 @@
     width: auto;
 }
 
-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-
 .fondobeige {
     background-color: bisque;
   }
@@ -78,6 +78,16 @@ img {
   .transparente {
     background-color: transparent;
   }
+
+  #cajaImgAlfajores{
+    display: flex;
+    justify-content: end;
+    padding: 7vh;
+}
+
+#imgAlfajores{
+    max-height: 30vh;
+}
 
 /* @media screen and (min-width: 577px) and (max-width: 767px){
     .contenedorTextoProductoDesk{

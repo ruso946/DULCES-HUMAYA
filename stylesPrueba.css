@@ -1,0 +1,32 @@
+.pruebaImagen{
+    background-color: brown;
+
+}
+
+.transparente{
+    background-color: transparent;
+}
+
+#textoDescripcion{
+    margin: 5vh;
+}
+#cajaDerecha{
+    display: flex;
+    justify-content: end;
+    padding: 5vh;
+
+}
+
+/* #imagenDerecha{
+    background-color: blueviolet;
+    border-color: transparent;
+    width: 50vh;
+    height: 50vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+} */
+
+#imagenIzquierda{
+    max-width: 50vh;
+    max-height: 50vh;     
+}
