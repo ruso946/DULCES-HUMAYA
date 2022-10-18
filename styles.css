@@ -1,0 +1,106 @@
+/* Estilos de presentacion */
+
+#fondoBienvenida{
+    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-size: cover; /* la imagen cubre todo el contenido */
+    background-repeat: no-repeat; /* no repite la imagen*/
+}
+
+#fondoAlfajores{
+    background-image: url(./IMAGENES/Productos/Producto4_chico.png);
+    background-size: cover; /* la imagen cubre todo el contenido */
+    background-repeat: no-repeat; /* no repite la imagen*/
+    max-height: 400px;
+}
+#contenedorBienvenida {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+#contenedorAlfajores{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+/* Estilos de Card en general */
+.cardGenerales{
+    border: none;
+    background-color: transparent;
+    padding: 1rem;
+    margin: none;
+    color: #FFF;
+    margin: 1rem;
+}
+
+.contenedorTextoBienvenida {
+    padding: 1rem;
+    margin: 1rem;
+    width: 22rem;
+}
+
+.contenedorTexto {
+    font-size: smaller;
+    padding: 1rem;
+    width: 22rem;
+    margin:auto;
+}
+
+.contenedorTextoAlfajores {
+    font-size: smaller;
+    padding: 1rem;
+    margin: 1rem;
+    width: 22rem;
+}
+
+#tituloProductos{
+    background-color: grey;
+    text-align: center;
+    color: #FFF;
+}
+
+.imgProducto{
+    height: 100%;
+    width: auto;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+.fondobeige {
+    background-color: bisque;
+  }
+
+  .transparente {
+    background-color: transparent;
+  }
+
+/* @media screen and (min-width: 577px) and (max-width: 767px){
+    .contenedorTextoProductoDesk{
+        visibility: hidden;
+        
+    }
+    .contenedorTextoProductoMobile{
+        padding: 1rem;
+        margin: 1rem;
+        width: 22rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+    .contenedorTextoProductoMobile{
+        visibility: hidden;
+        
+    }
+    .contenedorTextoProductoDesk{
+        padding: 1rem;
+        margin: 1rem;
+        width: 22rem;
+    }
+    
+  } */
