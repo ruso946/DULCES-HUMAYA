@@ -24,7 +24,6 @@
     justify-content: flex-start;
 }
 
-/* Estilos de Card en general */
 .cardGenerales{
     border: none;
     background-color: transparent;
@@ -72,7 +71,7 @@
 }
 
 .fondobeige {
-    background-color: bisque;
+    background-color: #bba373;
   }
 
   .transparente {
@@ -96,7 +95,21 @@
 }
 
 .marron{
-    background-color: brown;
+    background-color: #bba373;
+}
+
+.detallePresentacion{
+    color:    #6e4e27;
+    font-weight: bold;
+}
+
+.detalleTitulo{
+    color:    #6e4e27;
+}
+
+.detalleProducto{
+    color: white;
+    font-weight: bold;
 }
 /* @media screen and (min-width: 577px) and (max-width: 767px){
     .contenedorTextoProductoDesk{
