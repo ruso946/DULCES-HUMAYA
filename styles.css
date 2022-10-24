@@ -111,6 +111,75 @@
     color: white;
     font-weight: bold;
 }
+
+.recetas{
+    display: flex;
+    justify-content:center;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    background-color: #262525;
+    padding-left: 50px; 
+    padding-right: 50px; 
+
+}
+
+.tituloRecetas{
+    color:white;
+}
+.sectionRecetas{
+    background-color: #262525;
+}
+
+.cardReceta{
+    width: 250px;
+    background-color:  #bca475;
+    margin:auto;
+    border: 0;
+    font-size:x-small;
+    color:white;
+    height:300px;
+    
+}
+
+.card-title{
+    color: #765630;
+    text-align: center;
+}
+
+.botonRecetas{
+    color: #765630;
+    font-size: smaller;
+    font-weight: bold;
+    border-color: #765630;
+    border: solid 3px;
+    background-color: transparent;
+}
+
+form p {
+    font-size: small;
+    color:#765630
+}
+label {
+    font-size: small;
+    color:#765630
+}
+
+footer {
+    background-color: #0f0f0f;
+    margin-top:0;
+    padding:5px;
+}
+
+.pie{
+    color: #8c6c5c;
+}
+
+.redes{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
 /* @media screen and (min-width: 577px) and (max-width: 767px){
     .contenedorTextoProductoDesk{
         visibility: hidden;
