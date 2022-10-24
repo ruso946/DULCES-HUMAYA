@@ -70,6 +70,10 @@
     width: auto;
 }
 
+.prod4{
+    max-height: 240px;
+}
+
 .fondobeige {
     background-color: #bba373;
   }
@@ -84,8 +88,12 @@
     padding: 7vh;
 }
 
+.infoProducto1{
+    width: 350px;
+}
+
 #imgAlfajores{
-    max-height: 30vh;
+    max-height: 220px;
 }
 
 #calidad{
@@ -179,6 +187,34 @@ footer {
     flex-direction: column;
     align-content: center;
     align-items: center;
+    margin:0%;
+}
+
+.imgFooter{
+    display:flex;
+    height: 150px;
+    line-height: 150px;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+}
+
+ul li a:any-link {
+    font-size: small;
+    font-weight: bold;
+    color:white;
+}
+
+div a:any-link {
+    font-size: small;
+    font-weight: bold;
+    color:white;
+}
+
+i {
+    font-size: large;
+    font-weight: bold;
+    color:white;
 }
 /* @media screen and (min-width: 577px) and (max-width: 767px){
     .contenedorTextoProductoDesk{
